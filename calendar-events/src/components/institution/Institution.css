@@ -1,0 +1,27 @@
+.institution-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.institution-type {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.institution-container {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.institution-info {
+  margin-bottom: 1rem;
+}
+
+.dark-mode .institution-container {
+  border-color: #333;
+  background-color: #222;
+  color: #fff;
+  box-shadow: 0 0.2rem 0.4rem rgba(255, 255, 255, 0.15);
+}
